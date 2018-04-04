@@ -79,6 +79,9 @@
 .swiper-container .swiper-wrapper .p2 .p2-swiper {
   height: 80%;
 }
+.swiper-container .swiper-wrapper .p2 .p2-swiper img {
+  width: 100%;
+}
 .swiper-container .swiper-wrapper .p2 .p2-dsb {
   position: absolute;
   bottom: 8.37%;
