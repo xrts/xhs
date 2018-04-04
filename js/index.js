@@ -45,6 +45,9 @@ var xhs = {
                         xhs.videoIndex !=-1 ? xhs.videod.pause(): '';
                         break;
                 }
+            },
+            onSlideChangeEnd: function(swiper){
+                swiper.activeIndex != 4? xhs.bdAudio.activePlayer && xhs.bdAudio.activePlayer.pause && xhs.bdAudio.activePlayer.pause():'';
             }
         });
         var mySwiper2 = new Swiper ('.p2-swiper',{

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbddcfaf-3798-4e2f-ba3d-eb08b6d142b5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/js/baiduvideo.min.js" afterPath="$PROJECT_DIR$/js/baiduvideo.min.js" />
       <change beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,13 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38164666">
+    <splitter split-orientation="horizontal" split-proportion="0.17924528">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
+                <state relative-caret-position="27">
                   <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
                   <folding>
                     <element signature="e#440#1050#0" expanded="false" />
@@ -71,14 +70,16 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+                <state relative-caret-position="306">
+                  <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
                   <folding>
                     <element signature="e#27#400#0" expanded="false" />
                     <element signature="e#633#1074#0" expanded="false" />
-                    <element signature="e#1224#1825#0" expanded="false" />
-                    <element signature="e#2589#2827#0" expanded="false" />
-                    <element signature="e#2867#3661#0" expanded="false" />
+                    <element signature="e#1308#1815#0" expanded="false" />
+                    <element signature="e#2080#2195#0" expanded="false" />
+                    <element signature="e#2247#2747#0" expanded="false" />
+                    <element signature="e#2792#3030#0" expanded="false" />
+                    <element signature="e#3070#3864#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -215,7 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522722399887</updated>
       <workItem from="1522722401061" duration="10061000" />
-      <workItem from="1522806378959" duration="19788000" />
+      <workItem from="1522806378959" duration="20008000" />
     </task>
     <task id="LOCAL-00001" summary="no">
       <created>1522820804284</created>
@@ -301,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522830494442</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="no">
+      <created>1522832309698</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1522832309698</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29849000" />
+    <option name="totallyTimeSpent" value="30069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -391,9 +399,11 @@
           <folding>
             <element signature="e#27#400#0" expanded="false" />
             <element signature="e#633#1074#0" expanded="false" />
-            <element signature="e#1224#1825#0" expanded="false" />
-            <element signature="e#2589#2827#0" expanded="false" />
-            <element signature="e#2867#3661#0" expanded="false" />
+            <element signature="e#1308#1815#0" expanded="false" />
+            <element signature="e#2080#2195#0" expanded="false" />
+            <element signature="e#2247#2747#0" expanded="false" />
+            <element signature="e#2792#3030#0" expanded="false" />
+            <element signature="e#3070#3864#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,23 +506,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding>
-            <element signature="e#27#400#0" expanded="false" />
-            <element signature="e#633#1074#0" expanded="false" />
-            <element signature="e#1224#1825#0" expanded="false" />
-            <element signature="e#2589#2827#0" expanded="false" />
-            <element signature="e#2867#3661#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="27">
           <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
           <folding>
             <element signature="e#440#1050#0" expanded="false" />
@@ -525,6 +521,22 @@
             <element signature="n#section#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#section#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="e#27#400#0" expanded="false" />
+            <element signature="e#633#1074#0" expanded="false" />
+            <element signature="e#1308#1815#0" expanded="false" />
+            <element signature="e#2080#2195#0" expanded="false" />
+            <element signature="e#2247#2747#0" expanded="false" />
+            <element signature="e#2792#3030#0" expanded="false" />
+            <element signature="e#3070#3864#0" expanded="false" />
           </folding>
         </state>
       </provider>
