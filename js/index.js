@@ -53,10 +53,12 @@ var xhs = {
         var mySwiper3 = new Swiper ('.p5-swiper',{
             nextButton:'.button-next2',
             prevButton:'.button-prev2',
+            onInit: function(swiper){
+                xhs.playAudio();
+            },
             onSlideChangeEnd:function(swiper){
                 xhs.p5SwiperIndex = swiper.activeIndex;
                 console.log(xhs.p5SwiperIndex)
-                xhs.playAudio();
                 $('#p5-des .p5-des').eq(xhs.p5SwiperIndex).fadeIn().siblings().fadeOut();
                 xhs.bdAudio.activePlayer &&  xhs.bdAudio.activePlayer.pause &&  xhs.bdAudio.activePlayer.pause();
 
