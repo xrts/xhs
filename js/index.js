@@ -48,7 +48,7 @@ var xhs = {
             differrenceWidth=imgWidth-containerWidth;
           var  translateWidth = imgWidth/2;
         if(window.DeviceMotionEvent){
-            window.addEventListener('Deviceorientation',function(e){
+            window.addEventListener('deviceorientation',function(e){
                 if(e.gamma>10){
                     translateWidth+=3;
                     translateWidth < differrenceWidth ? $('.p4-1').css('transform','translate3d(-'+translateWidth+'px, 0, 0)')  :translateWidth= differrenceWidth;
@@ -56,7 +56,7 @@ var xhs = {
                     translateWidth-=3;
                     translateWidth >0 ? $('.p4-1').css('transform','translate3d(-'+translateWidth+'px, 0, 0)')  : translateWidth=0;
                 }
-            },true)
+            },true);
         }
     }
 

@@ -112,6 +112,7 @@
   z-index: 998;
 }
 .swiper-container .swiper-wrapper .p4 .p4-1 {
+  position: relative;
   width: auto;
   transform: translate3d(-50%, 0, 0);
   height: 100%;
