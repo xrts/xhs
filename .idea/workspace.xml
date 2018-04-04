@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbddcfaf-3798-4e2f-ba3d-eb08b6d142b5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/index.less" afterPath="$PROJECT_DIR$/css/index.less" />
       <change beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,13 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32599837">
+    <splitter split-orientation="horizontal" split-proportion="0.2616137">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1132">
+                <state relative-caret-position="-1321">
                   <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
                   <folding>
                     <element signature="e#440#1050#0" expanded="false" />
@@ -62,8 +60,8 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+                <state relative-caret-position="473">
+                  <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
                   <folding>
                     <element signature="e#932#1047#0" expanded="false" />
                     <element signature="n#!!block;n#playVideo#0;n#playVideo#0;n#!!block;n#xhs#0;n#!!top" expanded="false" />
@@ -197,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522722399887</updated>
       <workItem from="1522722401061" duration="10061000" />
-      <workItem from="1522806378959" duration="11085000" />
+      <workItem from="1522806378959" duration="11502000" />
     </task>
     <task id="LOCAL-00001" summary="no">
       <created>1522820804284</created>
@@ -241,11 +239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522822602697</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="no">
+      <created>1522823442691</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1522823442691</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21146000" />
+    <option name="totallyTimeSpent" value="21563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -411,7 +416,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1132">
+        <state relative-caret-position="-1321">
           <caret line="64" column="37" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
           <folding>
             <element signature="e#440#1050#0" expanded="false" />
@@ -425,8 +430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="473">
+          <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
           <folding>
             <element signature="e#932#1047#0" expanded="false" />
             <element signature="n#!!block;n#playVideo#0;n#playVideo#0;n#!!block;n#xhs#0;n#!!top" expanded="false" />

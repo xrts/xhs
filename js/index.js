@@ -45,8 +45,8 @@ var xhs = {
     leanScreen : function(){
         var imgWidth = $('.p4-1').width(),
             containerWidth =$('.p4').width(),
-            differrenceWidth=imgWidth-containerWidth,
-            translateWidth = imgWidth/2;
+            differrenceWidth=imgWidth-containerWidth;
+          var  translateWidth = imgWidth/2;
         if(window.DeviceMotionEvent){
             window.addEventListener('Deviceorientation',function(e){
                 if(e.gamma>10){
@@ -56,7 +56,7 @@ var xhs = {
                     translateWidth-=3;
                     translateWidth >0 ? $('.p4-1').css('transform','translate3d(-'+translateWidth+'px, 0, 0)')  : translateWidth=0;
                 }
-            })
+            },true)
         }
     }
 
