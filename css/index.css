@@ -7,7 +7,6 @@
 }
 .swiper-container .swiper-wrapper {
   position: relative;
-  overflow: hidden;
   width: 100%;
   height: 100%;
   /*****p1*****/
@@ -15,21 +14,21 @@
   /*****p3*****/
   /*****p4*****/
 }
-.swiper-container .swiper-wrapper .swiper-slide {
+.swiper-container .swiper-wrapper > .swiper-slide {
   position: relative;
   text-align: center;
   overflow: hidden;
   width: 100%;
   height: 100%;
 }
-.swiper-container .swiper-wrapper .swiper-slide img {
+.swiper-container .swiper-wrapper > .swiper-slide img {
   width: 100%;
   height: 100%;
 }
-.swiper-container .swiper-wrapper .swiper-slide .swiper-button-prev {
+.swiper-container .swiper-wrapper > .swiper-slide .swiper-button-prev {
   background-image: url('http://s0.ifengimg.com/2017/11/09/prev_78887efa.png');
 }
-.swiper-container .swiper-wrapper .swiper-slide .swiper-button-next {
+.swiper-container .swiper-wrapper > .swiper-slide .swiper-button-next {
   background-image: url('http://s0.ifengimg.com/2017/11/09/next_f79b9ed3.png');
 }
 .swiper-container .swiper-wrapper .p1 {
