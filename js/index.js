@@ -4,7 +4,7 @@ var xhs = {
     videod:$('#videos')[0],//video对象
     myScroll:null,
     bdAudio: null,
-    p5SwiperIndex:null,
+    p5SwiperIndex:null,//P5页当前swiper索引
     //p5听点评数据
     audioWords : [
         "1该户型位于项目楼栋两侧，东南边和西南边。户型主卧、客厅朝南，通透性较强采光充足；双卫生间设计，私密性更强，生活舒适度也更高",
@@ -51,11 +51,11 @@ var xhs = {
             prevButton: '.button-prev1'
         });
         var mySwiper3 = new Swiper ('.p5-swiper',{
-            loop:true,
             nextButton:'.button-next2',
             prevButton:'.button-prev2',
-            onSlideChangeStart:function(swiper){
+            onSlideChangeEnd:function(swiper){
                 xhs.p5SwiperIndex = swiper.activeIndex;
+                console.log(xhs.p5SwiperIndex)
                 xhs.playAudio();
                 $('#p5-des .p5-des').eq(xhs.p5SwiperIndex).fadeIn().siblings().fadeOut();
                 xhs.bdAudio.activePlayer &&  xhs.bdAudio.activePlayer.pause &&  xhs.bdAudio.activePlayer.pause();
@@ -95,7 +95,7 @@ var xhs = {
     },
     //语音播报
     playAudio : function (){
-        if (xhs.audioWords[xhs.p5SwiperIndex].length) {
+        if (xhs.audioWords.length) {
             xhs.bdAudio = new baiduAudio("musicH5", xhs.audioWords[xhs.p5SwiperIndex], xhs.p5SwiperIndex);
             xhs.bdAudio.init();
         }
