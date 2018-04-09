@@ -137,21 +137,181 @@
             </ul>
         </section>
         <!--06-->
-        <section class="swiper-slide p6">6</section>
+        <section class="swiper-slide p6">
+            <div class="list2">
+                <img class="swiper-slide-active" src="http://s0.ifengimg.com/2017/10/27/79f05ec22732147ec4b548fa358730aa.jpg" alt="">
+            </div>
+            <p class="p6-des1">项目地址：18路公交车终点站红树林公园门口下到项目</p>
+            <p class="p6-des2">售楼地址：18路公交车终点站红树林公园门口下即到项目</p>
+        </section>
         <!--07-->
-        <section class="swiper-slide p7">7</section>
+        <section class="swiper-slide p7">
+            <h1>在线点评</h1>
+            <div class="comments">
+                <textarea placeholder="输入你的楼盘点评（最多100字）" maxlength="100"></textarea>
+                <a href="javascript:;" id="sendBtnd" class="sendBtn">发 送</a>
+            </div>
+            <div class="comments-list" id="commentList_0">
+                <ul>
+                    <li class="clearfix">
+                        <div class="imgbox">
+                            <!-- <i class="icon_crown"></i> -->
+                            <img src="http://s0.ifengimg.com/2017/08/31/ig1_230d2058.png">
+                        </div>
+                        <div class="txtbox">
+                            <p>主编点评</p>
+                            <p>项目不错，就是有点远，特别适合养生，给爸妈住。</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="imgbox">
+                            <img src="http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1MEOPWcWnvs6CkQXzeUBsEpnZWicUlkPIbZ8LdkmCSKQMW1W4KRhgzUCoXH74D26XFPzbD49mmFw/0">
+                        </div>
+                        <div class="txtbox">
+                            <p>网友点评</p>
+                            <p>交通还算便利，绿化面积大到感人，环境宜人，温泉舒适。</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="imgbox">
+                            <img src="http://s0.ifengimg.com/2017/08/31/ig3_b0d820a3.png">
+                        </div>
+                        <div class="txtbox">
+                            <p>网友点评</p>
+                            <p>南边最好的别墅区没有之一，选择不会有错。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <a href="javascript:;" class="moreComment">查看更多点评</a>
+        </section>
         <!--08-->
-        <section class="swiper-slide p8">8</section>
+        <section class="swiper-slide p8">
+            <h1>#社群服务#</h1>
+            <!-- <h2>网络一线牵 珍惜这份缘</h2> -->
+            <div class="code">
+                <h3>关注公号</h3>
+                <h4>了解更多信息</h4>
+                <img class="codeImg" src="http://s0.ifengimg.com/2017/11/08/8ef284128b6a64011c34e0789a2705d9.jpg" alt="">
+                <h5>长按识别或手机扫码关注</h5>
+            </div>
+            <div class="tel">
+                <p>400-818-5005</p>
+                <a href="tel:400-818-5005"><img src="http://s0.ifengimg.com/2017/10/31/tel_22cf0bdd.png" alt=""></a>
+            </div>
+        </section>
         <!--09-->
-        <section class="swiper-slide p9">9</section>
+        <section class="swiper-slide p9"><h1>#社群服务#</h1>
+            <!-- <h2>网络一线牵 珍惜这份缘</h2> -->
+            <div class="code">
+                <h3>关注公号</h3>
+                <h4>了解更多信息</h4>
+                <img class="codeImg" src="http://s0.ifengimg.com/2017/11/08/8ef284128b6a64011c34e0789a2705d9.jpg" alt="">
+                <h5>长按识别或手机扫码关注</h5>
+            </div>
+            <div class="tel">
+                <img class="head" src="http://s0.ifengimg.com/2017/10/31/people_15deed4b.png" alt="">
+                <h3>李诗诗</h3>
+                <p>13641276699</p>
+                <a href="tel:13641276699"><img src="http://s0.ifengimg.com/2017/10/31/tel_22cf0bdd.png" alt=""></a>
+            </div></section>
         <!--10-->
-        <section class="swiper-slide p10">10</section>
+        <section class="swiper-slide p10">
+            <h1>感谢您关注XXX项目</h1>
+            <p class="control">请您留下姓名和联系方式</p>
+            <p>我们会定期给您发送</p>
+            <p>项目相关信息和最新活动</p>
+            <!--添加报名团 start-->
+            <div id="addSignUp"></div>
+            <div id="success" style="display:none;">报名成功才显示</div>
+            <img class="logo" src="http://s0.ifengimg.com/2017/10/31/logo_a749ac46.png" alt="">
+        </section>
     </div>
     <div class="arrow">
         <img src="images/arrow.png" alt="">
     </div>
 </div>
 
+<!-- 评论列表弹层 -->
+<div class="commentPop" style="display: none;">
+    <div class="commentPop-close"></div>
+    <div class="commentPop-title">全部点评</div>
+    <div class="outbox">
+        <div class="comments-list" id="commentList">
+            <ul>
+                <li class="clearfix">
+                    <div class="imgbox">
+                        <i class="icon_crown"></i>
+                        <img src="http://s0.ifengimg.com/2017/08/31/ig1_230d2058.png">
+                    </div>
+                    <div class="txtbox">
+                        <p>主编点评</p>
+                        <p>项目不错，就是有点远，特别适合养生，给爸妈住。</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox">
+                        <img src="http://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1MEOPWcWnvs6CkQXzeUBsEpnZWicUlkPIbZ8LdkmCSKQMW1W4KRhgzUCoXH74D26XFPzbD49mmFw/0">
+                    </div>
+                    <div class="txtbox">
+                        <p>网友点评</p>
+                        <p>交通还算便利，绿化面积大到感人，环境宜人，温泉舒适。</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox">
+                        <img src="http://s0.ifengimg.com/2017/08/31/ig3_b0d820a3.png">
+                    </div>
+                    <div class="txtbox">
+                        <p>网友点评</p>
+                        <p>南边最好的别墅区没有之一，选择不会有错。</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox">
+                        <img src="http://s0.ifengimg.com/2017/08/31/ig3_b0d820a3.png">
+                    </div>
+                    <div class="txtbox">
+                        <p>网友点评</p>
+                        <p>南边最好的别墅区没有之一，选择不会有错。</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <div class="imgbox">
+                        <img src="http://s0.ifengimg.com/2017/08/31/ig3_b0d820a3.png">
+                    </div>
+                    <div class="txtbox">
+                        <p>网友点评</p>
+                        <p>南边最好的别墅区没有之一，选择不会有错。</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--查看大图弹层-->
+<section class="imgzoom_pack">
+    <div class="imgzoom_x">X</div>
+    <div class="imgzoom_img">
+        <div class="sk-circle">
+            <div class="sk-circle1 sk-child"></div>
+            <div class="sk-circle2 sk-child"></div>
+            <div class="sk-circle3 sk-child"></div>
+            <div class="sk-circle4 sk-child"></div>
+            <div class="sk-circle5 sk-child"></div>
+            <div class="sk-circle6 sk-child"></div>
+            <div class="sk-circle7 sk-child"></div>
+            <div class="sk-circle8 sk-child"></div>
+            <div class="sk-circle9 sk-child"></div>
+            <div class="sk-circle10 sk-child"></div>
+            <div class="sk-circle11 sk-child"></div>
+            <div class="sk-circle12 sk-child"></div>
+        </div>
+        <img src="" id="glass-img" style="display: none;" alt="">
+    </div>
+
+
+</section>
 
 
 <script src="http://s0.ifengimg.com/static/js/jquery-1.7.2.min_c4de8813.js"></script>
@@ -162,6 +322,7 @@
 <script src="http://s0.ifengimg.com/2017/11/09/baiduvideo.min_734b6509.js"></script>
 <script src="http://s0.ifengimg.com/2017/09/13/iscroll_332d8e43.js"></script>
 <script src="http://s0.ifengimg.com/2017/10/31/scaled_0123373e.js"></script>
+<script src="http://s0.ifengimg.com/2017/11/03/sign_6439034d.js"></script>
 <script src="./js/index.js"></script>
 <script>
     document.onreadystatechange = function() {
@@ -169,9 +330,10 @@
             // 等待加载
             $('.loading').fadeOut();
             xhs.init();
-
         }
     }
+
+    xhs.initImagsZoom();
 </script>
 </body>
 </html>

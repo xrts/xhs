@@ -27,6 +27,7 @@
 				zoomImg   = document.querySelector(".imgzoom_pack .imgzoom_img img"),
 				zoomClose = document.querySelector(".imgzoom_pack .imgzoom_x"),
 				imgSrc    = params.imgSrc;
+
 			self.buffMove   = 3; //缓冲系数
 			self.buffScale  = 2; //放大系数
 			self.finger = false; //触摸手指的状态 false：单手指 true：多手指
